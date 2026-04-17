@@ -56,16 +56,25 @@ docker network ls
 
 ### Crear los contenedores y las redes que se presentan en el esquema. Usar para todos los contenedores la imagen de nginx:alpine
 
-!\[Imagen](esquema-ejercicio-redes.PNG)
+![Imagen](esquema-ejercicio-redes.PNG)
 
 # COLOCAR UNA CAPTURA DE LAS REDES EXISTENTES CREADAS
-<img width="600" height="204" alt="image" src="https://github.com/user-attachments/assets/5494484f-4029-40c4-92e4-1095b6cf85a3" />
 
 # COLOCAR UNA(S) CAPTURAS(S) DE LOS CONTENEDORES CREADOS EN DONDE SE EVIDENCIE A QUÉ RED ESTÁN VINCULADOS
-<img width="1357" height="54" alt="image" src="https://github.com/user-attachments/assets/e23f306e-7947-463f-9334-3b5e6b3d776e" />
+## Contenedor vinculado a la red bridge creada por nosotros
+<img width="1000" height="141" alt="image" src="https://github.com/user-attachments/assets/a86bcd94-4556-4dcb-8713-af2aae52fe4e" />
 
-<img width="1350" height="55" alt="image" src="https://github.com/user-attachments/assets/411b440b-4f20-4e78-9522-a0791bf0aa7a" />
+## Contenedor vinculado a la red bridge por defecto
+<img width="984" height="79" alt="image" src="https://github.com/user-attachments/assets/cde61119-b885-4bef-b05f-a4f48d895430" />
 
+## Contenedor vinculado a la red Host
+<img width="941" height="64" alt="image" src="https://github.com/user-attachments/assets/63fbfc23-bd31-4bb2-942a-e690471635bb" />
+
+## Contenedor vinculado a la red none
+<img width="949" height="78" alt="image" src="https://github.com/user-attachments/assets/034373cf-b625-4cde-b598-615e0a531157" />
+
+## Contenedor vinculado a la red bridge por defecto y a la creada
+<img width="687" height="50" alt="image" src="https://github.com/user-attachments/assets/6aeae36f-ff99-4674-8747-8d2caf76b3b1" />
 
 ### Para eliminar las redes creadas
 
